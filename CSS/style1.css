@@ -98,3 +98,14 @@ button {
   font: inherit;
   cursor: pointer;
 }
+ion-icon { pointer-events: none; }
+
+address { font-style: normal; }
+
+table { border-collapse: collapse; }
+
+html {
+  font-family: var(--ff-dm-sans);
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
