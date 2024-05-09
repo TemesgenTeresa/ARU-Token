@@ -25,9 +25,7 @@
 
    --gradient: linear-gradient(90deg, var(--white_10) 0px 77%, var(--white_50) 92%, transparent);
 
-   /**
-    * typography
-    */
+   /*typography*/
  
    --ff-dm-sans: 'DM Sans', sans-serif;
  
