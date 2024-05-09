@@ -109,3 +109,22 @@ html {
   font-size: 10px;
   scroll-behavior: smooth;
 }
+body {
+    background-color: var(--eerie-black-2);
+    color: var(--cadet-blue-crayola);
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+  
+  body.active { overflow: hidden; }
+  
+  ::-webkit-scrollbar { width: 10px; }
+  
+  ::-webkit-scrollbar-track { background-color: hsl(220, 4%, 5%); }
+  
+  ::-webkit-scrollbar-thumb { background-color: hsl(220, 5%, 20%); }
+  
+  ::-webkit-scrollbar-thumb:hover { background-color: hsl(220, 5%, 30%); }
+  
+  :focus-visible { outline-offset: 4px; }
+  
