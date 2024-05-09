@@ -128,3 +128,54 @@ body {
   
   :focus-visible { outline-offset: 4px; }
   
+  /* Reusing style*/
+  .container { padding-inline: 15px; }
+
+.btn {
+  color: var(--white);
+  border-radius: 50px;
+}
+
+.btn-outline {
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  border: 1px solid var(--white);
+  padding: 5px 15px;
+  transition: var(--transition-1);
+}
+
+.btn-outline:is(:hover, :focus) {
+  background-color: var(--blue-crayola);
+  border-color: var(--blue-crayola);
+}
+
+.btn-primary {
+  position: relative;
+  background-color: var(--blue-crayola);
+  max-width: max-content;
+  font-weight: var(--fw-700);
+  padding: 13px 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-primary::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: -50px;
+  background-image: var(--gradient);
+  transform: translateX(-100%);
+  opacity: 0;
+  z-index: -1;
+  transition: var(--transition-2);
+}
+
+.btn-primary:is(:hover, :focus)::after {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.section { padding-block: var(--section-padding); }
