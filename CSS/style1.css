@@ -201,3 +201,12 @@ body {
 .h2 { font-size: var(--fs-2); }
 
 .h3 { font-size: var(--fs-3); }
+.w-100 { width: 100%; }
+
+.badge {
+  color: var(--white);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-700);
+  padding: 4px 8px;
+  border-radius: 50px;
+}
