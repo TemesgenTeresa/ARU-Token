@@ -578,3 +578,74 @@ body {
     background-color: var(--blue-crayola);
     border-color: var(--blue-crayola);
   }
+  /*INSTRUCTION*/
+
+.instruction :is(.section-title, .section-text) { text-align: center; }
+
+.instruction .section-title { margin-block-end: 15px; }
+
+.instruction-list {
+  display: grid;
+  gap: 30px;
+  margin-block-start: 50px;
+}
+
+.instruction-card { text-align: center; }
+
+.instruction-card .card-banner { transition: var(--transition-2); }
+
+.instruction-card:hover .card-banner { transform: rotateY(1turn); }
+
+.instruction-card .img {
+  margin-inline: auto;
+  margin-block-end: 12px;
+}
+
+.instruction-card .card-subtitle {
+  font-size: var(--fs-8);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+}
+
+.instruction-card .card-title {
+  font-size: var(--fs-4);
+  margin-block: 5px 15px;
+}
+
+.instruction-card .card-text { padding-inline: 20px; }
+/*ABOUT*/
+
+.about { background-color: var(--eerie-black-1); }
+
+.about-banner { margin-block-end: 40px; }
+
+/* APP*/
+
+.app {
+  overflow: hidden;
+  padding-block-end: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.app-banner {
+  position: relative;
+  margin-block-start: 60px;
+}
+
+.app-banner .span {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  color: var(--white);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-700);
+  padding: 8px 15px;
+  border: 2px solid var(--white);
+  border-radius: 50px;
+}
