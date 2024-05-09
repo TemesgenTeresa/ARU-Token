@@ -49,4 +49,8 @@
    --shadow-1: 0px 4px 8px var(--black_10);
    --shadow-2: 0px 30px 10px -20px var(--smocky-black_30);
    --shadow-3: 0px 15px 10px -20px var(--smocky-black_30);
+ /* radius */
+
+   --radius-12: 12px;
+   --radius-24: 24px;
  
