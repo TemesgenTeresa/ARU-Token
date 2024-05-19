@@ -30,15 +30,16 @@ header {
       ;
     }
     
-    .wallet-info p {
+    
+    .wallet-info p{
       margin: 0; /* Remove default margin */
       font-size: 16px; /* Adjust font size as needed */
       line-height: 1.4; /* Adjust line height as needed */
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       
     }
-    
 }
+
 .wallet1{
     perspective: 1000px; /* Adding perspective for 3D effect */
     display:inline-flex; /* Use flexbox for layout */
@@ -54,6 +55,13 @@ header {
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
         transition: transform 0.3s ease;
       }
+      .wallet1 p {
+        margin-right: 20px; /* Adjust this value as needed to add space between the text and image */
+        margin: 0; /* Remove default margin */
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.4; /* Adjust line height as needed */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      } 
       
       .wallet1 img:hover {
         transform: scale(1.1) rotateY(25deg); /* Zoom and flip effect */
@@ -74,7 +82,16 @@ header {
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
         transition: transform 0.3s ease;
       }
-      
+      .bluecrypto {
+        margin-right: 20px; /* Adjust this value as needed */
+      }
+      .bluecrypto p{
+        margin: 0; /* Remove default margin */
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.4; /* Adjust line height as needed */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+      }
       .bluecrypto img:hover {
         transform: scale(1.1) rotateY(25deg); /* Zoom and flip effect */
         border-radius: 10%; /* Adjust the border radius for the desired shape */
@@ -83,8 +100,7 @@ header {
     perspective: 1000px; /* Adding perspective for 3D effect */
     display:flex; /* Use flexbox for layout */
   justify-content:flex-start; /* Center the images horizontally */
-  gap: 40px; /* Add some space between images */
- 
+  gap: 40px; /* Add some space between images */ 
   position: relative;
 
 }
@@ -115,11 +131,39 @@ header {
         transition: transform 0.3s ease;
         margin-right: 40px;
       }
+      .checkbalance p {
+        margin-right: 20px; /* Adjust this value as needed to add space between the text and image */
+        margin: 0; /* Remove default margin */
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.4; /* Adjust line height as needed */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      } 
       
       .checkbalance img:hover {
         transform: scale(1.1) rotateY(25deg); /* Zoom and flip effect */
         border-radius: 10%; /* Adjust the border radius for the desired shape */
-}
+     .createwallet {
+      margin-right: 20px; /* Adjust this value as needed */
+    }
+    .createwallet img {
+      max-width: 100%; /* Ensure the image doesn't exceed its container */
+    }
+  }
+    
+    .wallet-info p{
+      margin: 0; /* Remove default margin */
+      font-size: 16px; /* Adjust font size as needed */
+      line-height: 1.4; /* Adjust line height as needed */
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+  .about-wallet p{
+    margin: 0; /* Remove default margin */
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.4; /* Adjust line height as needed */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
 .wallet-description {
     width: 60%; /* Adjust the width as needed */
     margin: 0 auto; /* Center the content horizontally */
