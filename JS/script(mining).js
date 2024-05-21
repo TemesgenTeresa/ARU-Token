@@ -12,7 +12,7 @@ document.getElementById('mineButton').addEventListener('click', function() {
     }, 500);
 
     // Create particles
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 1; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
 
